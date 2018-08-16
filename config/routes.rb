@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # patch 'cocktails/:id', to: 'cocktails#update'
   # delete 'cocktails/:id', to: 'cocktails#destroy'
   resources :cocktails do
-    resources :doses, only: [:new, :create, :destroy]
+    resources :doses, only: [:new, :create]
   end
+  resources :doses, only: [:destroy]
 end
