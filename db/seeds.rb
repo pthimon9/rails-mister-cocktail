@@ -9,3 +9,11 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+
+# Cocktail.create(name: ‘Mojito’)
+# Cocktail.create(name: ‘Margarita’)
+# Cocktail.create(name: ‘Manhattan’)
+# Cocktail.create(name: ‘Daiquiri’)
+# Cocktail.create(name: ‘Martini’)
+# Cocktail.create(name: ‘Screwdriver’)
+# Cocktail.create(name: ‘Gimlet’)
